@@ -28,3 +28,10 @@ body {
     color: white;
     /* visibility: hidden; */
 }
+
+@media(max-width: 395px) {
+    .bg-img {
+        background: url('img/catmobile.jpg')center center/cover;
+        position: fixed;
+    }
+}
